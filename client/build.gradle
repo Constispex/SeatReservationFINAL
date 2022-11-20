@@ -4,7 +4,7 @@ plugins {
     id 'org.openjfx.javafxplugin' version '0.0.13'
     id 'org.beryx.jlink' version '2.25.0'
 }
-mainClassName = 'de.medieninformatik.client.Test'
+
 
 group 'de.medieninformatik'
 version '1.0-SNAPSHOT'
@@ -25,7 +25,7 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'SeatReservationThree.client.main'
+    mainModule = 'de.medieninformatik.client'
     mainClass = 'de.medieninformatik.client.ReservationClient'
 }
 
@@ -36,15 +36,10 @@ javafx {
 
 dependencies {
     implementation project(':server')
-
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
-    implementation("org.glavo.hmcl.openjfx:javafx-controls:18.0.2+1-arm64")
-    implementation("org.glavo.hmcl.openjfx:javafx-fxml:18.0.2+1-arm64")
-    implementation("org.glavo.hmcl.openjfx:javafx-base:18.0.2+1-arm64")
-
-
-
+    implementation('org.openjfx:javafx-controls:19')
+    implementation('org.openjfx:javafx-fxml:19')
 }
 
 

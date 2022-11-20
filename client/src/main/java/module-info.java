@@ -1,10 +1,9 @@
-module SeatReservationThree.client.main {
+module de.medieninformatik.client {
 
-
+    requires javafx.fxml;
+    requires javafx.controls;
     requires java.rmi;
-    requires SeatReservationThree.server.main;
-    requires transitive javafx.controls;
-    requires transitive javafx.fxml;
+    requires de.medieninformatik.server;
 
     opens de.medieninformatik.client.client to javafx.fxml;
     exports de.medieninformatik.client;
