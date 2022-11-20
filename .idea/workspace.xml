@@ -3,17 +3,346 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="SeatReservationThree" />
+      <module name="SeatReservationThree.test" />
+      <module name="SeatReservationThree.main" />
+      <module name="SeatReservationThree.common" />
+      <module name="SeatReservationThree.common.main" />
+      <module name="SeatReservationThree.common.test" />
+      <module name="SeatReservationThree.client" />
+      <module name="SeatReservationThree.server" />
+      <module name="SeatReservationThree.client.test" />
+      <module name="SeatReservationThree.client.main" />
+      <module name="SeatReservationThree.server.test" />
+      <module name="SeatReservationThree.server.main" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="778f00d9-93a3-4c12-81ed-edc37592eea4" name="Changes" comment="" />
+    <list default="true" id="778f00d9-93a3-4c12-81ed-edc37592eea4" name="Changes" comment="ARRRRRRGRH">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/ReservationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/SeatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/SeatingReservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/de/medieninformatik/client/client/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/de/medieninformatik/common/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/de/medieninformatik/common/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/de/medieninformatik/common/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/ReservationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/ReservationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/de/medieninformatik/server/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/medieninformatik/seatreservationthree/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/medieninformatik/seatreservationthree/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Common">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/Server">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Client">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Common">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/client">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/server">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SeatReservationThree" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SeatReservationThree" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SeatReservationThree" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SeatReservationThree" type="f1a62948:ProjectNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SeatReservationThree" type="f1a62948:ProjectNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SeatReservationThree" type="f1a62948:ProjectNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SeatReservationThree" type="f1a62948:ProjectNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="package-info" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Client" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2HlTYyvdQLXi8LiIPxAnGNGSjZO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-17",
+    "last_directory_selection": "C:/Users/feuer/Downloads/SeatReservationThree/Client/src/main/java/de/medieninformatik/client",
+    "last_opened_file_path": "C:/Users/feuer/Documents/Studium/2022 SOSE/Programmierung 2/openjfx-18.0.1_windows-x64_bin-sdk/javafx-sdk-18.0.1/lib",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\feuer\Downloads\SeatReservationThree\Client\src\main\java\de\medieninformatik\client" />
+      <recent name="C:\Users\feuer\Downloads\SeatReservationThree\Server\src\main\java\de\medieninformatik\server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\feuer\Downloads\SeatReservationThree\Server\src\main\java\de\medieninformatik\server" />
+      <recent name="C:\Users\feuer\Downloads\SeatReservationThree\Client\src\main\java" />
+      <recent name="C:\Users\feuer\Downloads\SeatReservationThree\Client\src\main\java\de\medieninformatik\client" />
+      <recent name="C:\Users\feuer\Downloads\SeatReservationThree\src\main\java\de\medieninformatik\seatreservationthree" />
+      <recent name="C:\Users\feuer\Downloads\SeatReservationThree\Server\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.medieninformatik.client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SeatReservationThree:client [run]">
+    <configuration name="SeatReservationThree [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeatReservationThree [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan --stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeatReservationThree:client [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeatReservationThree:client [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan --stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeatReservationThree:server [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SeatReservationThree:client [run]" />
+        <item itemvalue="Gradle.SeatReservationThree [run]" />
+        <item itemvalue="Gradle.SeatReservationThree [build]" />
+        <item itemvalue="Gradle.SeatReservationThree:client [build]" />
+        <item itemvalue="Gradle.SeatReservationThree:server [run]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -23,9 +352,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668852672568</updated>
-      <workItem from="1668852673996" duration="1000" />
+      <workItem from="1668852673996" duration="5880000" />
+      <workItem from="1668858726075" duration="437000" />
+      <workItem from="1668859175433" duration="66000" />
+      <workItem from="1668859260547" duration="9515000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="server" />
+    <module name="server.main" />
+    <module name="server.test" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -37,5 +377,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ARRRRRRGRH" />
+    <option name="LAST_COMMIT_MESSAGE" value="ARRRRRRGRH" />
   </component>
 </project>
