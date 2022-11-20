@@ -20,6 +20,10 @@ repositories {
 
 dependencies {
     implementation('org.openjfx:javafx-controls:17.0.2')
+    implementation("org.glavo.hmcl.openjfx:javafx-controls:18.0.2+1-arm64")
+    implementation("org.glavo.hmcl.openjfx:javafx-fxml:18.0.2+1-arm64")
+    implementation project(':server')
+    implementation project(':client')
 }
 
 
@@ -65,6 +69,11 @@ subprojects {
     dependencies {
         testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
         testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+        implementation('org.openjfx:javafx-controls:17.0.2')
+
+        implementation("org.glavo.hmcl.openjfx:javafx-controls:18.0.2+1-arm64")
+        implementation("org.glavo.hmcl.openjfx:javafx-fxml:18.0.2+1-arm64")
+
     }
 
     test {
