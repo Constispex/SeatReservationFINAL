@@ -20,61 +20,13 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="778f00d9-93a3-4c12-81ed-edc37592eea4" name="Changes" comment="ARRRRRRGRH">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/ReservationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/SeatingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/SeatingReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/de/medieninformatik/client/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/de/medieninformatik/client/client/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/de/medieninformatik/common/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/de/medieninformatik/common/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/de/medieninformatik/common/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/ReservationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/ReservationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/de/medieninformatik/server/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/de/medieninformatik/server/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/medieninformatik/seatreservationthree/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/medieninformatik/seatreservationthree/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="778f00d9-93a3-4c12-81ed-edc37592eea4" name="Changes" comment="ARRRRRRGRH" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -355,8 +307,23 @@
       <workItem from="1668852673996" duration="5880000" />
       <workItem from="1668858726075" duration="437000" />
       <workItem from="1668859175433" duration="66000" />
-      <workItem from="1668859260547" duration="9515000" />
+      <workItem from="1668859260547" duration="9920000" />
     </task>
+    <task id="LOCAL-00001" summary="ARRRRRRGRH">
+      <created>1668932497104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668932497104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ARRRRRRGRH">
+      <created>1668933533110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668933533110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
