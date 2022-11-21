@@ -10,8 +10,8 @@ javafx {
     modules = ['javafx.controls', 'javafx.fxml']
 }
 application {
-    mainModule = 'SeatReservationThree.main'
-    mainClass = 'de.medieninformatik.seatreservationthree.HelloApplication'
+    mainModule = 'de.medieninformatik.main'
+    mainClass = 'de.medieninformatik.main.HelloApplication'
 }
 
 repositories {
@@ -57,8 +57,8 @@ subprojects {
     }
 
     application {
-        mainModule = 'SeatReservationThree.main'
-        mainClass = 'de.medieninformatik.seatreservationthree.HelloApplication'
+        mainModule = 'de.medieninformatik.main'
+        mainClass = 'de.medieninformatik.main.HelloApplication'
     }
 
     javafx {

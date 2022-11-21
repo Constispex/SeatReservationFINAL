@@ -1,6 +1,4 @@
-module de.medieninformatik.main {
-    requires javafx.controls;
-    requires javafx.fxml;
+module de.medieninformatik.common {
     requires java.rmi;
     opens de.medieninformatik.main to javafx.fxml;
     exports de.medieninformatik.main;

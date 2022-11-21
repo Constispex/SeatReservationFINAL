@@ -24,7 +24,8 @@ public class Main {
             Remote remote = new ReservationImpl();
             UnicastRemoteObject.exportObject(remote, 50000);
             Naming.rebind("//:" + port + "/Reservation", remote);
-            System.out.println("Datum -Server gestartet");
+            System.out.println("Server gestartet");
+            System.out.println("//:" + port + "/Reservation");
         } catch (RemoteException | MalformedURLException e){
             System.err.println(e.getMessage());
         }

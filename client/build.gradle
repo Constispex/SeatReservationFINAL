@@ -29,13 +29,11 @@ application {
     mainClass = 'de.medieninformatik.client.ReservationClient'
 }
 
-javafx {
-    version = '17.0.2'
-    modules = ['javafx.controls', 'javafx.fxml']
-}
 
 dependencies {
     implementation project(':server')
+    implementation project(':common')
+
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
     implementation('org.openjfx:javafx-controls:19')

@@ -1,5 +1,6 @@
 package de.medieninformatik.client;
 
+import de.medieninformatik.main.Reservation;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
@@ -9,6 +10,12 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+import java.rmi.registry.Registry;
+
 
 public class SeatingController {
 
@@ -16,6 +23,11 @@ public class SeatingController {
     private boolean[][] seats = new boolean[10][20];
 
     public SeatingController() {
+        try {
+            Reservation reservation = (Reservation) Naming.lookup("//:" + Registry.REGISTRY_PORT + "/Reservation");
+        } catch (NotBoundException | MalformedURLException | RemoteException e) {
+            throw new RuntimeException(e);
+        }
         for (int row = 0; row < 10; row++) {
             for (int col = 0; col < 20; col++) {
                 seats[row][col] = true;

@@ -1,4 +1,4 @@
-package de.medieninformatik.seatreservationthree;
+package de.medieninformatik.main;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
