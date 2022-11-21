@@ -3,7 +3,7 @@ plugins {
     id 'org.beryx.jlink' version '2.25.0'
 }
 
-jar.enabled = true;
+jar.enabled = true
 
 group 'de.medieninformatik'
 version '1.0-SNAPSHOT'

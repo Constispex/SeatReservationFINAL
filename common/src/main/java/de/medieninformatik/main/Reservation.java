@@ -6,7 +6,6 @@ import java.rmi.RemoteException;
 public interface Reservation extends Remote {
     void addReservation(int row, int column, String name) throws RemoteException;
     void clearReservation(int row, int column) throws RemoteException;
-    void cancelReservation() throws RemoteException;
 
     boolean isReserved(int row, int column);
 
